@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  border: 1px solid black;
+  width: 350px;
+  height: 400px;
+  text-align: center;
+  padding-top: 10rem;
+  border-radius: 8px;
+  margin-left: 400px;
+  margin-top: 100px;
+  /* background-color: black; */
+}
+input {
+  border: none;
+  border-bottom: 1px solid black;
+}
+#gmail.com::focus {
+  border-color: white;
+  border: none;
+  border-bottom: 1px solid black;
+  border-style: none;
+}
+/* #checkbox{display:flex;
+   } */
+button {
+  width: 70px;
+  height: 25px;
+}
